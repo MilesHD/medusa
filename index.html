@@ -1,11 +1,41 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" />
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.10.0/vis.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Hello World</h1>
+        <div class="medusa-wrapper">
+            <div id="vis" class="vis">
+            </div>
+            <div class="menu">
+                <div class="menu-header">
+                    <h2>Query</h2>
+                    <span id="close-menu" class="close-menu">X</span>
+                </div>
+                <div class="menu-controls">
+                    <form>
+                        <label for="reference">Reference</label>
+                        <input name="reference" id="reference" class="form-control" placeholder="Reference">
+
+                        <label for="reference">Days Back</label>
+                        <input name="days-back" id="days-back" class="form-control" placeholder="Days Back">
+
+                        Sources
+                        <input type="checkbox" name="dsie" value="DSIE"> DSIE
+                        <input type="checkbox" name="ge" value="GE"> GE 
+                        <button id="submit-query">Submit</button>
+                        <button id="default-query">Default</button>
+                    </form>
+                    <!--<button id="toggle-timeline">Toggle Timeline</button>-->
+                </div>
+            </div>
+            <div class="timeline">
+            </div>
+        </div>
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.10.0/vis.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
