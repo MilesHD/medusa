@@ -33,6 +33,9 @@
 
     // Event handlers
     $('#submit-query').on('click', function submitQuery(evt) {
+        // Ajax Call to Alertweb server
+        // Needs to be some controller / route handler to communicate
+        // with python script
         evt.preventDefault()
         alert(evt);
     });

@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "CRITS Event / Indicator Relationship Visualization Platform",
   "scripts": {
-    "sass": "node-sass style.scss style.css",
+    "sass": "node-sass -w style.scss style.css",
     "serve": "http-server -p 9000",
-    "livereload": "live-reload --port 9091 ./"
+    "livereload": "live-reload --port 9001 ./"
   },
   "author": "Miles Dickinson",
   "homepage": "https://github.com/MilesHD/medusa",

@@ -1,39 +1,59 @@
 
-.form-control {
-    display: block;
-    width: 75%;
-    height: 34px;
-    padding: 6px 12px;
-}
-
-.medusa-wrapper {
-    border: 1px solid black;
-    min-height: 600px;
-    position: relative;
+.medusa {
     width: 100%;
+    position: relative;
+    .medusa__menu {
+        width: 25%;
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+        .form-control {
+           display: block; 
+        }
+    }
+    .medusa__vis {
+        width: 75%;
+    }
 }
 
-.medusa-wrapper .vis {
-    border: 1px solid red;
-    width: 75%;
-    position: absolute;
-    left: 0;
-    height: 600px;
-}
 
-.medusa-wrapper .menu {
-    border: 1px solid green;
-    width: 25%;
-    position: absolute;
-    right: 0;
-    height: 600px;
-    padding: 10px;
-}
 
-.medusa-wrapper .menu .close-menu {
-    cursor: pointer;
-}
+/*.form-control {*/
+    /*display: block;*/
+    /*width: 75%;*/
+    /*height: 34px;*/
+    /*padding: 6px 12px;*/
+/*}*/
 
-.medusa-wrapper .timeline {
+/*.medusa-wrapper {*/
+    /*border: 1px solid black;*/
+    /*min-height: 600px;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+/*}*/
 
-}
+/*.medusa-wrapper .vis {*/
+    /*border: 1px solid red;*/
+    /*width: 75%;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*height: 600px;*/
+/*}*/
+
+/*.medusa-wrapper .menu {*/
+    /*border: 1px solid green;*/
+    /*width: 25%;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*height: 600px;*/
+    /*padding: 10px;*/
+/*}*/
+
+/*.medusa-wrapper .menu .close-menu {*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.medusa-wrapper .timeline {*/
+
+/*}*/

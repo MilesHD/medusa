@@ -6,16 +6,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="medusa-wrapper">
-            <div id="vis" class="vis">
+        <div class="medusa">
+            <div id="medusa-vis" class="medusa__vis">
             </div>
-            <div class="menu">
-                <div class="menu-header">
-                    <h2>Query</h2>
+            <div class="medusa__menu">
+                <div class="menu__header">
+                    <h2>MEDUSA LOGO</h2>
                     <span id="close-menu" class="close-menu">X</span>
                 </div>
-                <div class="menu-controls">
-                    <form>
+                <div class="menu__controls">
+                    <form id="medusa-query">
                         <label for="reference">Reference</label>
                         <input name="reference" id="reference" class="form-control" placeholder="Reference">
 
@@ -31,11 +31,12 @@
                     <!--<button id="toggle-timeline">Toggle Timeline</button>-->
                 </div>
             </div>
-            <div class="timeline">
-            </div>
         </div>
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.10.0/vis.js"></script>
         <script src="main.js"></script>
+
+        <!-- DEVELOPMENT -->
+9       <script src="//localhost:9001"></script>
     </body>
 </html>
