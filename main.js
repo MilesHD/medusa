@@ -11,14 +11,14 @@
     var edges = [
         {to: 1, from: 3},
         {to: 1, from: 2},
-        {to: 2, from: 4},
+        {to: 2, from: 4}
     ];
     
     function renderGraph(nodes, edges) {
         nodes = new vis.DataSet(nodes);
         edges = new vis.DataSet(edges);
 
-        var container = document.getElementById('vis');
+        var container = document.getElementById('medusa-vis');
 
         var data = {
             nodes: nodes,

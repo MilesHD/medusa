@@ -11,8 +11,7 @@
             </div>
             <div class="medusa__menu">
                 <div class="menu__header">
-                    <h2>MEDUSA LOGO</h2>
-                    <span id="close-menu" class="close-menu">X</span>
+                    <img src="http://placehold.it/175x50">
                 </div>
                 <div class="menu__controls">
                     <form id="medusa-query">
@@ -25,8 +24,12 @@
                         Sources
                         <input type="checkbox" name="dsie" value="DSIE"> DSIE
                         <input type="checkbox" name="ge" value="GE"> GE 
-                        <button id="submit-query">Submit</button>
-                        <button id="default-query">Default</button>
+
+                        <div>
+                            <button id="submit-query" class="btn btn-submit">Submit</button>
+                            <button id="default-query" class="btn btn-default">Default</button>
+                        </div>
+                            
                     </form>
                     <!--<button id="toggle-timeline">Toggle Timeline</button>-->
                 </div>
@@ -37,6 +40,6 @@
         <script src="main.js"></script>
 
         <!-- DEVELOPMENT -->
-9       <script src="//localhost:9001"></script>
+       <script src="//localhost:9001"></script>
     </body>
 </html>
