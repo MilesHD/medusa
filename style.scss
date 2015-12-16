@@ -14,14 +14,16 @@ html {
         border: 1px solid black;
         border-radius: 5px;
         position: absolute;
-        width: 250px;
-        /*width: 25%;*/
-        /*min-width: 215px;*/
-        /*max-width: 250px;*/
+        width: 25%;
+        min-width: 225px;
+        max-width: 250px;
         height: 100%;
         padding: 15px;
         .menu__header {
             text-align: center;
+            img {
+                width: 200px;
+            }
         }
         label {
             display: block;
@@ -48,13 +50,14 @@ html {
             border-radius: 4px;
             font-size: 12px;
             cursor: pointer;
+            margin-top: 10px;
         }
         .btn-submit {
             color: #ffffff;
             background-color: #337ab7;
             border-color: #2e6da4;
         }
-        .btn-default {
+        .btn-clear {
             color: #333;
             background-color: #fff;
             border-color: #ccc;
@@ -68,44 +71,3 @@ html {
         height: 100%;
     }
 }
-
-
-
-/*.form-control {*/
-    /*display: block;*/
-    /*width: 75%;*/
-    /*height: 34px;*/
-    /*padding: 6px 12px;*/
-/*}*/
-
-/*.medusa-wrapper {*/
-    /*border: 1px solid black;*/
-    /*min-height: 600px;*/
-    /*position: relative;*/
-    /*width: 100%;*/
-/*}*/
-
-/*.medusa-wrapper .vis {*/
-    /*border: 1px solid red;*/
-    /*width: 75%;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*height: 600px;*/
-/*}*/
-
-/*.medusa-wrapper .menu {*/
-    /*border: 1px solid green;*/
-    /*width: 25%;*/
-    /*position: absolute;*/
-    /*right: 0;*/
-    /*height: 600px;*/
-    /*padding: 10px;*/
-/*}*/
-
-/*.medusa-wrapper .menu .close-menu {*/
-    /*cursor: pointer;*/
-/*}*/
-
-/*.medusa-wrapper .timeline {*/
-
-/*}*/

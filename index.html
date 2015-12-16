@@ -11,7 +11,7 @@
             </div>
             <div class="medusa__menu">
                 <div class="menu__header">
-                    <img src="http://placehold.it/175x50">
+                    <img src="logo.png">
                 </div>
                 <div class="menu__controls">
                     <form id="medusa-query">
@@ -20,14 +20,15 @@
 
                         <label for="reference">Days Back</label>
                         <input name="days-back" id="days-back" class="form-control" placeholder="Days Back">
-
-                        Sources
-                        <input type="checkbox" name="dsie" value="DSIE"> DSIE
-                        <input type="checkbox" name="ge" value="GE"> GE 
+                        <div>
+                            Sources
+                            <input type="checkbox" name="sources" value="DSIE"> DSIE
+                            <input type="checkbox" name="sources" value="GE"> GE 
+                        </div>
 
                         <div>
                             <button id="submit-query" class="btn btn-submit">Submit</button>
-                            <button id="default-query" class="btn btn-default">Default</button>
+                            <button id="clear-query" class="btn btn-clear">Clear</button>
                         </div>
                             
                     </form>
