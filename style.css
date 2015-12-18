@@ -1,91 +1,75 @@
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
-  box-sizing: border-box; }
-
+  box-sizing: border-box;
+}
 *, *:before, *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 .medusa {
-  width: 100%;
-  position: relative;
-  height: 600px; }
-  .medusa .medusa__menu {
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+
+.medusa .medusa__menu {
     border: 1px solid black;
     border-radius: 5px;
     position: absolute;
-    width: 250px;
-    /*width: 25%;*/
-    /*min-width: 215px;*/
-    /*max-width: 250px;*/
+    width: 25%;
+    min-width: 225px;
+    max-width: 250px;
     height: 100%;
-    padding: 15px; }
-    .medusa .medusa__menu .menu__header {
-      text-align: center; }
-    .medusa .medusa__menu label {
-      display: block;
-      margin: 10px 0; }
-    .medusa .medusa__menu input[type='checkbox'] {
-      margin-left: 5px; }
-    .medusa .medusa__menu input {
-      margin: 10px 0; }
-    .medusa .medusa__menu .form-control {
-      display: block;
-      width: 100%;
-      height: 34px;
-      padding: 6px;
-      line-height: 1.428;
-      font-size: 12px; }
-    .medusa .medusa__menu .btn {
-      display: inline-block;
-      padding: 6px 12px;
-      border: 1px solid transparent;
-      border-radius: 4px;
-      font-size: 12px;
-      cursor: pointer; }
-    .medusa .medusa__menu .btn-submit {
-      color: #ffffff;
-      background-color: #337ab7;
-      border-color: #2e6da4; }
-    .medusa .medusa__menu .btn-default {
-      color: #333;
-      background-color: #fff;
-      border-color: #ccc; }
-  .medusa .medusa__vis {
-    /*border: 1px solid black;*/
+    padding: 15px;
+
+}
+.medusa .medusa__menu .menu__header {
+    text-align: center;
+}
+.medusa .medusa__menu .menu__header img {
+    width: 200px;
+}
+.medusa .medusa__menu label {
+    display: block;
+    margin: 10px 0;
+}
+.medusa .medusa__menu input {
+    margin: 10px 0;
+}
+.medusa .medusa__menu input[type='checkbox'] {
+    margin-left: 5px;
+}
+.medusa .medusa__menu .form-control {
+    display: block; 
+    width: 100%;
+    height: 34px;
+    padding: 6px;
+    line-height: 1.428;
+    font-size: 12px;
+}
+.medusa .medusa__menu .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.medusa .medusa__menu .btn-submit {
+    color: #ffffff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.medusa .medusa__menu .btn-clear {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.medusa .medusa__vis {
     position: absolute;
     right: 0;
     width: 75%;
-    height: 100%; }
-
-/*.form-control {*/
-/*display: block;*/
-/*width: 75%;*/
-/*height: 34px;*/
-/*padding: 6px 12px;*/
-/*}*/
-/*.medusa-wrapper {*/
-/*border: 1px solid black;*/
-/*min-height: 600px;*/
-/*position: relative;*/
-/*width: 100%;*/
-/*}*/
-/*.medusa-wrapper .vis {*/
-/*border: 1px solid red;*/
-/*width: 75%;*/
-/*position: absolute;*/
-/*left: 0;*/
-/*height: 600px;*/
-/*}*/
-/*.medusa-wrapper .menu {*/
-/*border: 1px solid green;*/
-/*width: 25%;*/
-/*position: absolute;*/
-/*right: 0;*/
-/*height: 600px;*/
-/*padding: 10px;*/
-/*}*/
-/*.medusa-wrapper .menu .close-menu {*/
-/*cursor: pointer;*/
-/*}*/
-/*.medusa-wrapper .timeline {*/
-/*}*/
+    height: 100%;
+}
